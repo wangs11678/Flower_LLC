@@ -15,11 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="llccode.cpp">
+    <ClCompile Include="extract_sift.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="sift_bow_svm.cpp">
+    <ClCompile Include="build_codebook.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mainEntry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="llc_code.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="extract_sift.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="build_codebook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="llc_code.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

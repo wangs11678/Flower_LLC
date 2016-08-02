@@ -77,8 +77,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="llccode.cpp" />
-    <ClCompile Include="sift_bow_svm.cpp" />
+    <ClCompile Include="build_codebook.cpp" />
+    <ClCompile Include="mainEntry.cpp" />
+    <ClCompile Include="extract_sift.cpp" />
+    <ClCompile Include="llc_code.cpp" />
+    <ClCompile Include="utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="build_codebook.h" />
+    <ClInclude Include="extract_sift.h" />
+    <ClInclude Include="llc_code.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
