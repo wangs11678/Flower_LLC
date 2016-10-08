@@ -20,4 +20,7 @@ using namespace std;
 using namespace cv;
 
 Mat dsift(Mat img, int step, int binSize);
-void extractDsiftFeature(string databaseDir, string dsiftFeatureDir, int step, int binSize);
+void meshgrid(const cv::Range &xgv, const cv::Range &ygv, int step, cv::Mat &X, cv::Mat &Y) ;
+Mat normImg(Mat image, int maxImgSize);
+Mat calculateSiftXY(Mat dfea, int width, int height, int patchSize, int step, bool flag);
+void extractDsiftFeature(string databaseDir, string dsiftFeatureDir, int step, int binSize, int patchSize);

@@ -21,13 +21,37 @@
     <ClCompile Include="dsift.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="dsift_llc_svm.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="dictionary.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="llc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="liblinear\linear.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="liblinear\tron.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="liblinear\blas\daxpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="liblinear\blas\ddot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="liblinear\blas\dnrm2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="liblinear\blas\dscal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="train.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main_dsift_llc_svm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vocabulary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="predict.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,10 +62,28 @@
     <ClInclude Include="dsift.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="dictionary.h">
+    <ClInclude Include="llc.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="llc.h">
+    <ClInclude Include="liblinear\linear.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="liblinear\tron.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="liblinear\blas\blas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="liblinear\blas\blasp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="train.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vocabulary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="predict.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
