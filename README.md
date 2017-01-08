@@ -5,3 +5,4 @@ dsift->k-means->LLC->liblinear
 2. k-means聚类字典；
 3. LLC降维；
 4. liblinear分类器分类。
+
